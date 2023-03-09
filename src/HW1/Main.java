@@ -20,6 +20,14 @@ public class Main {
         for(Animal animal: animals) {
             animal.toFly();
         }
+        System.out.println();
+        for(Animal animal: animals) {
+            animal.toGo();
+        }
+        System.out.println();
+        for(Animal animal: animals) {
+            animal.toSwim();
+        }
 
 
     }
