@@ -26,6 +26,7 @@
 </details>
 
 <details><summary>Home Work 2</summary>
+
 - Создать класс Doctor. Создайте интерфейсы Runnable, Flyable, Swimable. У интерфейсов должны быть
 методы получения скорости заданного действия.
 
@@ -41,6 +42,10 @@
 </details>
 
 <details><summary>Home Work 3</summary>
+
+- Создать сет компонентов, и сделать так, чтобы в нем не было 2 одинаковых. (Специально создать два одинаковых компонента в Main и попытаться их добавить в сет)
+- Set<Component> result = new HashSet<>(components); (подсказка переопределить методы equals и hashCode).
+- Переписать compareTo так, чтобы если power лекарств равны, сравнение шло еще и по названиям компонентов лекарства
 
 </details>
 
