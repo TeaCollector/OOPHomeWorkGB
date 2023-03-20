@@ -43,6 +43,7 @@ class LinkedListTest {
 
     @Test
     void testUpdateName() {
+        // Can't find approach to test this, computer become freeze, because we ought to enter the name...
     }
 
     @Test
@@ -63,7 +64,7 @@ class LinkedListTest {
 
     @Test
     void testMethodShowAllList() {
-
+        // Can't find approach to test this
     }
 
     @Test
