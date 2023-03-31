@@ -59,7 +59,9 @@ public class UserRepository implements GBRepository<User, Long> {
     public Optional<User> update(Long id, User update) {
         try {
             List<User> users = findAll();
-            User updateUser = users.stream().filter(u -> u.getId().equals(id)).findFirst().get();
+            User updateUser = users.stream().filter(u -> u.getId().equals(id))
+                    .findFirst()
+                    .get();
             updateUser.setFirstName(update.getFirstName());
             updateUser.setLastName(update.getLastName());
             updateUser.setPhone(update.getPhone());
